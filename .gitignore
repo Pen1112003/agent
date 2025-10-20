@@ -62,6 +62,10 @@ logs/
 .DS_Store
 Thumbs.db
 
+# Allow Result folder but exclude system files
+!Result/
+Result/**/.DS_Store
+
 # Lock files (optional)
 uv.lock
 
