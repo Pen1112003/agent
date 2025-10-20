@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Credentials and sensitive files - QUAN TRỌNG
+*.json
+!pyproject.json
+*.key
+*.pem
+*.cert
+*.crt
+credentials/
+secrets/
+.env
+.env.local
+
+# File credential cụ thể - KHÔNG ĐƯỢC PUSH
+nguyenductuan-bf7a1-f1c104b4c600.json
+
+# Database
+DB/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+*_log/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lock files (optional)
+uv.lock
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
